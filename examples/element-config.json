@@ -1,0 +1,9 @@
+{
+  "default_server_config": {
+    "m.homeserver": {
+      "base_url": "http://127.0.0.1:18008",
+      "server_name": "example.com"
+    }
+  },
+  "disable_guests": true
+}

@@ -1,0 +1,21 @@
+[global]
+server_name = "example.com"
+database_path = "/var/lib/tuwunel"
+
+[global.http]
+max_request_size = "100 MiB"
+
+[global.http.listen]
+address = "0.0.0.0"
+port = 8008
+
+[global.federation]
+enable = false
+
+[global.registration]
+enable = false
+shared_secret = "replace-with-tuwunel-registration-shared-secret"
+grant_admin_to_first_user = true
+
+[global.authentication.login]
+with_password = true

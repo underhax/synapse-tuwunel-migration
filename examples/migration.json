@@ -1,0 +1,27 @@
+{
+  "server_name": "example.com",
+  "synapse_url": "https://synapse.example.com",
+  "tuwunel_url": "http://127.0.0.1:18008",
+  "tuwunel_shared_secret": "replace-with-tuwunel-registration-shared-secret",
+  "data_dir": "./dump",
+  "local_room_version": "12",
+  "replay_single_user_notes": true,
+  "accounts": [
+    {
+      "user_id": "@alice:example.com",
+      "synapse_access_token": "replace-with-synapse-or-mas-token-1",
+      "tuwunel_password": "replace-with-tuwunel-password-1",
+      "recovery_key": "replace-with-ssss-recovery-key-1",
+      "admin": true,
+      "exists_on_tuwunel": false
+    },
+    {
+      "user_id": "@bob:example.com",
+      "synapse_access_token": "replace-with-synapse-or-mas-token-2",
+      "tuwunel_password": "replace-with-tuwunel-password-2",
+      "recovery_key": "replace-with-ssss-recovery-key-2",
+      "admin": false,
+      "exists_on_tuwunel": false
+    }
+  ]
+}
